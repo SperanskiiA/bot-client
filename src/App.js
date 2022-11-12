@@ -23,7 +23,7 @@ function App() {
         <Button 
         variant='outlined'
         size='large'
-        sx={{margin: '10px auto'}}
+        sx={{margin: '10px auto', background: 'var(--tg-theme-button-color)', color: 'var(--tg-theme-button-text-color)'}}
         onClick={handleClose}>close</Button>
       </Box>
     
